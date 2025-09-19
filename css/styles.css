@@ -579,6 +579,11 @@ margin-bottom: 72px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    color: #ffffff;
 }
 
 .footer-input::placeholder {
@@ -587,7 +592,7 @@ margin-bottom: 72px;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
 }
 
 .footer-btn {
@@ -599,6 +604,14 @@ margin-bottom: 72px;
     border: none;
     padding-left: 24px;
     padding-right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
 }
 
 .footer-btn-txt {
@@ -608,10 +621,6 @@ margin-bottom: 72px;
     letter-spacing: 0.04em;
     text-align: center;
     color: #fff;
-    display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 16px;
 }
 
 .backdrop {
