@@ -623,6 +623,11 @@ margin-bottom: 72px;
     color: #fff;
 }
 
+.footer-icon-btn {
+    margin-left: 16px;
+    fill: #fff;
+}
+
 .backdrop {
     position: fixed;
     top: 0;
