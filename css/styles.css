@@ -783,13 +783,10 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: 360px;
     height: 120px;
     resize: none;
-    padding-left: 16px;
-    padding-top: 8px;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding: 8px 16px;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
     background-color: transparent;
@@ -853,6 +850,8 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     letter-spacing: 0.04em;
     text-align: center;
     color: #fff;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
