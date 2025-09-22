@@ -693,11 +693,8 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
-.close-but:hover {
-    fill: #ffffff;
-}
-
-.close-but:focus{
+.close-button:hover>.close-but,
+.close-button:focus>.close-but {
     fill: #ffffff;
 }
 
