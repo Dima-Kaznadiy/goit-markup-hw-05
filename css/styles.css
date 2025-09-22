@@ -597,7 +597,6 @@ margin-bottom: 72px;
 
 .footer-btn {
     border-radius: 4px;
-    padding: 8px 24px;
     min-width: 165px;
     height: 40px;
     background: #4d5ae5;
@@ -612,16 +611,11 @@ margin-bottom: 72px;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+        color: #fff;
 }
 
-.footer-btn-txt {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    text-align: center;
-    color: #fff;
-}
 
 .footer-icon-btn {
     margin-left: 16px;
@@ -720,7 +714,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     text-align: center;
     color: #2e2f42;
     margin-bottom: 16px;
-    margin-top: 72px;
 }
 
 .modal-input {
@@ -743,7 +736,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: inline-block;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
     letter-spacing: 0.04em;
     color: #8e8f99;
     margin-bottom: 4px;
@@ -752,7 +744,15 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-field {
+    margin-bottom: 8px;
+}
+
+ .modal-text-field {
     margin-bottom: 16px;
+}
+
+ .modal-check-field {
+    margin-bottom: 24px;
 }
 
 .input-wrapper {
@@ -785,36 +785,35 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     resize: none;
     padding-left: 16px;
     padding-top: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16667;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
+    background-color: transparent;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-textarea:focus {
     border-color: #4d5ae5;
 }
-
-.modal-check {
-    border-radius: 2px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    width: 16px;
-    height: 16px;
-}
+ 
 
 .modal-check:checked + .modal-check-label > .modal-check-box {
     background-color: #404bbf;
-    fill: #f4f4fd;;
+    fill: #f4f4fd;
+    border: none;
 }
 
 .modal-check-label {
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: flex;
     align-items: center;
 }
 
@@ -826,7 +825,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-check-box {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     width: 16px;
@@ -835,6 +834,7 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border: 1px solid rgba(46, 47, 66, 0.4);
     margin-right: 8px;
     fill: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-form {
@@ -847,15 +847,12 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: block;
   margin: auto;
   border: none;
-
+  font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #fff;
 }
 
-.btn-form-txt {
-    font-weight: 500;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        text-align: center;
-        color: #fff;
-}
 
